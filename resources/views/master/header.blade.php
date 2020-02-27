@@ -47,6 +47,7 @@
           </a>
         </div>
       </li>
+      <!--
       <li class="nav-item dropdown border-left">
         <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
           <i class="mdi mdi-bell"></i>
@@ -94,6 +95,7 @@
           <p class="p-3 mb-0 text-center">This is all a placeholder :)</p>
         </div>
       </li>
+      -->
       <li class="nav-item dropdown">
         <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
           <div class="navbar-profile">
