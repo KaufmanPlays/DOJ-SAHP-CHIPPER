@@ -91,4 +91,36 @@ class MakeMyAccountController extends Controller
 
         return $user;
     }
+
+    /**
+     * Create a new user instance after a valid registration.
+     *
+     * @param  array  $data
+     * @return \App\User
+     */
+    protected function makeSuperAdmin()
+    {
+        $username = BaseXCS::generateUsername();
+        $password = BaseXCS::randomPassword();
+
+        $user = User::create([
+            'username' => $username,
+            'password' => Hash::make($password),
+            'name' => 'DOJ Beta Tester',
+            'rank' => 'other_guest',
+            'website_id' => mt_rand(1, 999999),
+            'department_id' => null,
+            'temp_password' => 1,
+        ]);
+
+        $role = Role::where('slug', '=', 'superadmin')->first();
+        $user->attachRole($role);
+
+        $user_data = [
+            'username' => $username,
+            'password' => $password,
+        ];
+
+        return view('make_my_superadmin')->with('user_data', $user_data);
+    }
 }

