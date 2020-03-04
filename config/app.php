@@ -170,6 +170,7 @@ return [
         Lab404\Impersonate\ImpersonateServiceProvider::class,
         YbrNX\MariaDB\MariaDBServiceProvider::class,
         MarvinLabs\DiscordLogger\ServiceProvider::class,
+        Laracasts\Utilities\JavaScript\JavaScriptServiceProvider::class,
 
         /*
          * Application Service Providers...
