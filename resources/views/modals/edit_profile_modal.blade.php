@@ -116,13 +116,13 @@
                     @if(Auth::user()->level() >= $constants['access_level']['seniorstaff'])
                     <div class="form-group">
                       <div class="form-check form-check-info">
-                        <label class="form-check-label"><input type="checkbox" class="profile-training-field" id="profile-training-field"> Advanced Training <i class="input-helper"></i></label>
+                        <label class="form-check-label"><input type="checkbox" class="profile-training-field" id="profile-training-field"> Spike Strip Training <i class="input-helper"></i></label>
                       </div>
                     </div>
                     @else
                     <div class="form-group">
                       <div class="form-check form-check-info">
-                        <label class="form-check-label"><input type="checkbox" class="profile-training-field" id="profile-training-field" disabled> Advanced Training <i class="input-helper"></i></label>
+                        <label class="form-check-label"><input type="checkbox" class="profile-training-field" id="profile-training-field" disabled> Spike Strip Training <i class="input-helper"></i></label>
                       </div>
                     </div>
                     @endif

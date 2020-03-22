@@ -41,7 +41,7 @@ table {
                     <th>Status</th>
                     <th>Monthly Hours</th>
                     <th>Monthly Logs</th>
-                    <th>Advanced Training</th>
+                    <th>Spike Strip Training</th>
                     <th>Requirements</th>
                   </tr>
                 </thead>
@@ -66,7 +66,7 @@ table {
                     <th>Status</th>
                     <th>Monthly Hours</th>
                     <th>Monthly Logs</th>
-                    <th>Advanced Training</th>
+                    <th>Spike Strip Training</th>
                     <th>Requirements</th>
                   </tr>
                 </thead>
@@ -91,7 +91,7 @@ table {
                     <th>Status</th>
                     <th>Monthly Hours</th>
                     <th>Monthly Logs</th>
-                    <th>Advanced Training</th>
+                    <th>Spike Strip Training</th>
                     <th>Requirements</th>
                   </tr>
                 </thead>
@@ -116,7 +116,7 @@ table {
                     <th>Status</th>
                     <th>Monthly Hours</th>
                     <th>Monthly Logs</th>
-                    <th>Advanced Training</th>
+                    <th>Spike Strip Training</th>
                     <th>Requirements</th>
                   </tr>
                 </thead>
@@ -145,7 +145,7 @@ table {
                     <th>Status</th>
                     <th>Monthly Hours</th>
                     <th>Monthly Logs</th>
-                    <th>Advanced Training</th>
+                    <th>Spike Strip Training</th>
                     <th>Requirements</th>
                   </tr>
                 </thead>
@@ -170,7 +170,7 @@ table {
                     <th>Status</th>
                     <th>Monthly Hours</th>
                     <th>Monthly Logs</th>
-                    <th>Advanced Training</th>
+                    <th>Spike Strip Training</th>
                     <th>Requirements</th>
                   </tr>
                 </thead>
@@ -195,7 +195,7 @@ table {
                     <th>Status</th>
                     <th>Monthly Hours</th>
                     <th>Monthly Logs</th>
-                    <th>Advanced Training</th>
+                    <th>Spike Strip Training</th>
                     <th>Requirements</th>
                   </tr>
                 </thead>
@@ -224,7 +224,7 @@ table {
                     <th>Status</th>
                     <th>Monthly Hours</th>
                     <th>Monthly Logs</th>
-                    <th>Advanced Training</th>
+                    <th>Spike Strip Training</th>
                     <th>Requirements</th>
                   </tr>
                 </thead>
@@ -249,7 +249,7 @@ table {
                     <th>Status</th>
                     <th>Monthly Hours</th>
                     <th>Monthly Logs</th>
-                    <th>Advanced Training</th>
+                    <th>Spike Strip Training</th>
                     <th>Requirements</th>
                   </tr>
                 </thead>

@@ -171,7 +171,7 @@
                               <span class="float-right text-{{ $constants['requirements_colors'][$calculations['requirements']] }}"> {{ $constants['requirements'][$calculations['requirements']] }} </span>
                             </p>
                             <p class="clearfix">
-                              <span class="float-left"> Advanced Training </span>
+                              <span class="float-left"> Spike Strip Training </span>
                               <span class="float-right text-muted"> {{ $user_data['advanced_training'] ? 'Yes' : 'No' }} </span>
                             </p>
                             <p class="clearfix">

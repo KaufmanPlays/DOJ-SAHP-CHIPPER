@@ -118,7 +118,7 @@
       </a>
     </li>
     @endif
-    @if(Auth::user()->level() >= $constants['access_level']['staff'])
+    @if(Auth::user()->level() >= $constants['access_level']['sit'])
     <li class="nav-item menu-items">
       <a class="nav-link" href="/discipline">
         <span class="menu-icon">

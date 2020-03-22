@@ -1054,7 +1054,7 @@ Route::prefix('discipline')->group(function () {
    * @category DisciplineRoutes
    * @access SIT
    */
-  Route::middleware('level:'.\Config::get('constants.access_level.sit'))->group(function () {
+  Route::middleware('level:'.\Config::get('constants.access_level.staff'))->group(function () {
 
     /**
      * Webdomain: /discipline
