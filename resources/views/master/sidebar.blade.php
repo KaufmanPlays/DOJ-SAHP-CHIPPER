@@ -68,7 +68,7 @@
         <span class="menu-title">Dashboard</span>
       </a>
     </li>
-    @if(Auth::user()->level() >= $constants['access_level']['seniorstaff'])
+    @if(Auth::user()->level() >= $constants['access_level']['staff'])
     <li class="nav-item menu-items">
       <a class="nav-link" href="/internal_roster">
         <span class="menu-icon">

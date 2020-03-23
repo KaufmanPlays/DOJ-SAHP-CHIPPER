@@ -1,3 +1,4 @@
+  
 @if(Auth::user()->level() >= $constants['access_level']['member'])
 <!-- Submitting a Patrol Log - Modal -->
 <!-- Open modal with button id #absence_modal_button -->
@@ -33,6 +34,12 @@
                 </span>
               </div>
               <label id="absence_modal_end_date-error" class="error mt-2 text-danger" for="absence_modal_end_date" hidden></label>
+            </div>
+
+            <div class="form-group">
+              <label>LOA Forum Post Link</label><sup class="text-danger">*</sup>
+              <input type="url" class="form-control p_input" required id="absence_modal_forum_post" name="absence_modal_forum_post" autocomplete="off">
+              <label id="absence_modal_forum_post-error" class="error mt-2 text-danger" for="absence_modal_forum_post" hidden></label>
             </div>
 
           </div>

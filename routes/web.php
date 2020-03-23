@@ -1313,7 +1313,7 @@ Route::prefix('internal_roster')->group(function () {
    * @category InternalRosterRoutes
    * @access Senior Staff
    */
-  Route::middleware('level:'.\Config::get('constants.access_level.seniorstaff'))->group(function () {
+  Route::middleware('level:'.\Config::get('constants.access_level.staff'))->group(function () {
 
     /**
      * Webdomain: /internal_roster/

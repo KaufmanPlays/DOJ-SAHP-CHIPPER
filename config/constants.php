@@ -15,14 +15,14 @@ return [
     'global' => [
         // ENV CONFIG:
         'framework_name' => env('FRAMEWORK_NAME', 'Laravel'),
-        'application_name' => env('APP_NAME', 'Antelope'),
-        'application_subname' => env('APP_SUBNAME', 'PHP'),
+        'application_name' => env('APP_NAME', 'Chipper'),
+        'application_subname' => env('APP_SUBNAME', 'by Antelope'),
         'application_version' => '1.0.0',
         'application_footer' => env('APP_FOOTER', 'Department of Justice RP'),
         'application_enviroment' => env('APP_ENV', 'local'),
-        'application_color' => env('APP_COLOR', 'success'),
+        'application_color' => env('APP_COLOR', 'warning'),
         // NON-ENV CONFIG:
-        'application_icon' => 'fab fa-asymmetrik',
+        'application_icon' => 'mdi mdi-highway',
         'application_favicon' => 'favicon.png',
     ],
 
@@ -247,12 +247,11 @@ return [
 
         'senior_member' => [
             'chief_master_trooper',
-            //'master_civilian',
+            'master_trooper',
         ],
 
         'member' => [
-	    'master_trooper',
-            'senior_trooper',
+	    'senior_trooper',
             'trooper_first_class',
             'trooper',
         ],
