@@ -145,7 +145,7 @@ return [
     |
     */
     'role' => [
-        'superadmin' => 'Antelope Developer',
+        'superadmin' => 'Super Administrator',
         'admin' => 'Administration Access',
         'seniorstaff' => 'Senior Staff Access',
         'staff' => 'Staff Access',
