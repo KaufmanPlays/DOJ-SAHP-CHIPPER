@@ -90,7 +90,7 @@ memberCreatedSwal = function(data) {
       content: {
         element: "textarea",
         attributes: {
-          value: "This login information is used to access the Civilian Operations Digital System where you will be logging all of your patrol logs and will have access to all of your information.\n\nWebsite: "+$base_url+"\nUsername: "+data['username']+"\nPassword: "+data['password'],
+          value: "This login information is used to access the CHIPPER Digital System where you will be logging all of your patrol logs and will have access to all of your information.\n\nWebsite: "+$base_url+"\nUsername: "+data['username']+"\nPassword: "+data['password'],
           rows: "6",
           disabled: "disabled",
         },
