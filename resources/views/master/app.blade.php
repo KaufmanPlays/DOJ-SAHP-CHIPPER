@@ -102,12 +102,6 @@
     @yield('pluginjs')
     <!-- endinject -->
 
-    <!-- page:js -->
-    <script type="text/javascript">
-        var $url_clear_notifications = "{{ url('/notifications/clearall') }}";
-    </script>
-    <!-- endinject -->
-
     <!-- inject:js -->
     <script src="/assets/js/misc.js"></script>
     <script src="/assets/js/settings.js"></script>
@@ -127,6 +121,7 @@
     <!-- XCS-Int Javascript-->
     <script src="/js/app.js"></script>
     <!-- End XCS-Int Javascript-->
+
   </body>
 </html>
 <!-- WEB APPLICATION END -->
