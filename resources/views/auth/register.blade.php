@@ -63,7 +63,7 @@
                     <label>Policy Agreements</label>
                     <div class="form-check form-check-warning">
                       <label class="form-check-label text-muted">
-                        <input type="checkbox" class="form-check-input" required> By checking this box you confirm that you have read the Civilian SOP. </label>
+                        <input type="checkbox" class="form-check-input" required> By checking this box you confirm that you have read the SAHP SOP. </label>
                     </div>
                     <div class="form-check form-check-warning">
                       <label class="form-check-label text-muted">
@@ -71,7 +71,7 @@
                     </div>
                     <div class="form-check form-check-warning">
                       <label class="form-check-label text-muted">
-                        <input type="checkbox" class="form-check-input" required> By checking this box you confirm that you have read the Civilian Weapon, Vehicle & Animal Structure. </label>
+                        <input type="checkbox" class="form-check-input" required> By checking this box you confirm that you have read the Spike Strip Agreement Form. </label>
                     </div>
                   </div>
 

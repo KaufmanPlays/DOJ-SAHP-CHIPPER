@@ -1,7 +1,7 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
   <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top fixpaddingright">
-    <a class="sidebar-brand brand-logo" href="/" id="xcs-header"><i id="xcs-header-icon" class="{{ $constants['global']['application_icon'] }} rotate-n-15"></i> {{ $constants['global']['application_name'] }}<sup id='xcs-header-sub'>{{ $constants['global']['application_subname'] }}</sup></a>
-    <a class="sidebar-brand brand-logo-mini" href="/" id="xcs-header"><i id="xcs-header-icon" class="{{ $constants['global']['application_icon'] }} rotate-n-15"></i></a>
+    <a class="sidebar-brand brand-logo text-{{ $constants['global']['application_color'] }}" href="/" id="xcs-header"><i id="xcs-header-icon" class="{{ $constants['global']['application_icon'] }} rotate-n-15"></i> {{ $constants['global']['application_name'] }}<sup id='xcs-header-sub'>{{ $constants['global']['application_subname'] }}</sup></a>
+    <a class="sidebar-brand brand-logo-mini text-{{ $constants['global']['application_color'] }}" href="/" id="xcs-header"><i id="xcs-header-icon" class="{{ $constants['global']['application_icon'] }} rotate-n-15"></i></a>
   </div>
   <ul class="nav">
     <li class="nav-item profile">
@@ -68,7 +68,7 @@
         <span class="menu-title">Dashboard</span>
       </a>
     </li>
-    @if(Auth::user()->level() >= $constants['access_level']['seniorstaff'])
+    @if(Auth::user()->level() >= $constants['access_level']['staff'])
     <li class="nav-item menu-items">
       <a class="nav-link" href="/internal_roster">
         <span class="menu-icon">

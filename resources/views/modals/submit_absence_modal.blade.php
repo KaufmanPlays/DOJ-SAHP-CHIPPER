@@ -1,3 +1,4 @@
+  
 @if(Auth::user()->level() >= $constants['access_level']['member'])
 <!-- Submitting a Patrol Log - Modal -->
 <!-- Open modal with button id #absence_modal_button -->

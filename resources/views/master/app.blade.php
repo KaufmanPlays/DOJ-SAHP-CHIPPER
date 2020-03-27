@@ -12,8 +12,9 @@
 
     <!-- Global Plugin CSS -->
     <link rel="stylesheet" href="/assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="/assets/vendors/css/vendor.bundle.base.css">
     <link rel="stylesheet" href="/assets/vendors/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="/assets/vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/vendors/css/vendor.bundle.base.css">
     <link rel="stylesheet" href="/assets/vendors/jvectormap/jquery-jvectormap.css">
     <link rel="stylesheet" href="/assets/vendors/flag-icon-css/css/flag-icon.min.css">
     <link rel="stylesheet" href="/assets/vendors/owl-carousel-2/owl.carousel.min.css">
@@ -59,6 +60,17 @@
         <!-- endpartial -->
 
         <div class="main-panel">
+
+        @if($constants['announcement']['enabled'] && $constants['announcement']['visible']['main_application'])
+        <!-- main-panel-announcement begins -->
+        <div class="main-panel-announcement bg-{{ $constants['announcement']['content']['background-color'] }}">
+          @if($constants['announcement']['content']['icon'])
+          <i class="{{ $constants['announcement']['content']['icon'] }}"></i> 
+          @endif
+          {{ $constants['announcement']['content']['content'] }}
+        </div>
+        <!-- main-panel-announcement ends -->
+        @endif
 
           <!-- content-wrapper begins -->
           @yield('content')
