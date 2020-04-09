@@ -35,7 +35,7 @@
                 </form>
                 <br>
                 <h5>Bulk Notify</h5><br>
-                <form action="/superadmin/notify" method="POST">
+<!--                <form action="/superadmin/notify" method="POST">
                   @csrf
                   <div class="row">
                     <div class="col-2">
@@ -69,7 +69,7 @@
                   </div>
 
                   <button type="submit" class="btn btn-warning mr-2">Send notification</button>
-                </form>
+                </form> -->
                 <hr>
                 <br>
                 <a href="/superadmin/icons">Material Design Icons</a><br>

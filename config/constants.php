@@ -17,7 +17,7 @@ return [
         'framework_name' => env('FRAMEWORK_NAME', 'Laravel'),
         'application_name' => env('APP_NAME', 'Chipper'),
         'application_subname' => env('APP_SUBNAME', 'by Antelope'),
-        'application_version' => '1.0.1',
+        'application_version' => '1.0.2',
         'application_footer' => env('APP_FOOTER', 'Department of Justice RP'),
         'application_enviroment' => env('APP_ENV', 'local'),
         'application_color' => env('APP_COLOR', 'warning'),
