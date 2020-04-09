@@ -52,6 +52,15 @@
                 @endif
               </form>
 			  <br>
+	</div>
+      </div>
+    </div>
+  </div>
+	<br>
+<div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
 			<h5>Bulk Notify</h5><br>
                 <form action="/admin/notify" method="POST">
                   @csrf
