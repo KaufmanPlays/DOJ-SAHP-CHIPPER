@@ -305,7 +305,7 @@ class Antelope extends Controller
      */
     public function superAdminIcons()
     {
-        return view('developers.superadmin_icons')->with('constants', $this->constants);
+        return view('superadmin_icons')->with('constants', $this->constants);
     }
 
     /**
@@ -319,7 +319,7 @@ class Antelope extends Controller
      */
     public function superAdminIcons2()
     {
-        return view('developers.superadmin_icons2')->with('constants', $this->constants);
+        return view('superadmin_icons2')->with('constants', $this->constants);
     }
 
     /**

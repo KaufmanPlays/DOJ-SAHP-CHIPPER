@@ -576,6 +576,48 @@ Route::prefix('admin')->group(function () {
       'as' => 'admin.settings',
       'uses' => 'Antelope@adminSettings_view'
     ]);
+	
+	    /**
+     * Webdomain: /superadmin/notify
+     *
+     * @author Oliver G.
+     * @package POST
+     * @category SuperAdminRoutes
+     * @access SuperAdmin
+     * @version 1.0.0
+     */
+    Route::post('/notify', [
+      'as' => 'superadmin.notify',
+      'uses' => 'Antelope@superAdminNotify'
+    ]);
+	
+	/**
+     * Webdomain: /icons
+     *
+     * @author Oliver G.
+     * @package GET
+     * @category SuperAdminRoutes
+     * @access SuperAdmin
+     * @version 1.0.0
+     */
+    Route::get('/icons', [
+      'as' => 'superadmin.icons',
+      'uses' => 'Antelope@superAdminIcons'
+    ]);
+
+    /**
+     * Webdomain: /icons2
+     *
+     * @author Oliver G.
+     * @package GET
+     * @category SuperAdminRoutes
+     * @access SuperAdmin
+     * @version 1.0.0
+     */
+    Route::get('/icons2', [
+      'as' => 'superadmin.icons2',
+      'uses' => 'Antelope@superAdminIcons2'
+    ]);
 
     /**
      * Webdomain: /admin/quicklink/add
@@ -802,34 +844,6 @@ Route::prefix('superadmin')->group(function () {
      * Webdomain: /superadmin/icons
      *
      * @author Oliver G.
-     * @package GET
-     * @category SuperAdminRoutes
-     * @access SuperAdmin
-     * @version 1.0.0
-     */
-    Route::get('/icons', [
-      'as' => 'superadmin.icons',
-      'uses' => 'Antelope@superAdminIcons'
-    ]);
-
-    /**
-     * Webdomain: /superadmin/icons2
-     *
-     * @author Oliver G.
-     * @package GET
-     * @category SuperAdminRoutes
-     * @access SuperAdmin
-     * @version 1.0.0
-     */
-    Route::get('/icons2', [
-      'as' => 'superadmin.icons2',
-      'uses' => 'Antelope@superAdminIcons2'
-    ]);
-
-    /**
-     * Webdomain: /superadmin/icons
-     *
-     * @author Oliver G.
      * @package POST
      * @category SuperAdminRoutes
      * @access SuperAdmin
@@ -840,19 +854,7 @@ Route::prefix('superadmin')->group(function () {
       'uses' => 'Antelope@superAdminGodmode'
     ]);
 
-    /**
-     * Webdomain: /superadmin/notify
-     *
-     * @author Oliver G.
-     * @package POST
-     * @category SuperAdminRoutes
-     * @access SuperAdmin
-     * @version 1.0.0
-     */
-    Route::post('/notify', [
-      'as' => 'superadmin.notify',
-      'uses' => 'Antelope@superAdminNotify'
-    ]);
+
 
   });
 
