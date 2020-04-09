@@ -654,6 +654,6 @@ class Antelope extends Controller
 
         Notification::send($users, new CustomSANotify($request['title'], $request['text'], $request['icon'], $request['color']));
 
-        return redirect()->route('superadmin');
+        return redirect()->route('dashboard');
     }
 }

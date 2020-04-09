@@ -53,7 +53,7 @@
               </form>
 			  <br>
 			<h5>Bulk Notify</h5><br>
-                <form action="/superadmin/notify" method="POST">
+                <form action="/admin/notify" method="POST">
                   @csrf
                   <div class="row">
                     <div class="col-2">
@@ -90,8 +90,8 @@
                 </form>
 				<hr>
 				<br>
-				<a href="/icons">Material Design Icons</a><br>
-				<a href="/icons2">Font Awesome Icons</a>
+				<a href="/admin/icons">Material Design Icons</a><br>
+				<a href="/admin/icons2">Font Awesome Icons</a>
         </div>
       </div>
     </div>
