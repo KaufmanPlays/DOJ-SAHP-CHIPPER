@@ -34,8 +34,8 @@
                   <button type="submit" class="btn btn-warning mr-2">Takeover User</button>
                 </form>
                 <br>
-                <h5>Bulk Notify</h5><br>
-<!--                <form action="/superadmin/notify" method="POST">
+<!--                <h5>Bulk Notify</h5><br>
+                <form action="/superadmin/notify" method="POST">
                   @csrf
                   <div class="row">
                     <div class="col-2">
@@ -73,7 +73,7 @@
                 <hr>
                 <br>
                 <a href="/superadmin/icons">Material Design Icons</a><br>
-                <a href="/superadmin/icons2">Font Awesome Icons</a>
+                <a href="/superadmin/icons2">Font Awesome Icons</a> -->
           </div>
         </div>
       </div>
